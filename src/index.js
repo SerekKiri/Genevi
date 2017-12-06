@@ -3,22 +3,9 @@ import { render } from 'react-dom';
 import Button from 'material-ui/Button';
 import TextField from 'material-ui/TextField';
 import './index.css';
+import { BrowserRouter, Route, Switch, Link, Redirect } from 'react-router-dom';
 
   class Nav extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {isToggleOn: true};
-  
-      // This binding is necessary to make `this` work in the callback
-      this.handleClick = this.handleClick.bind(this);
-    }
-  
-    handleClick() {
-      this.setState(prevState => ({
-        isToggleOn: !prevState.isToggleOn
-      }));
-    }
-    
     render() {
           return (
             <div>
@@ -41,19 +28,21 @@ import './index.css';
                       <li><TextField helperText="Password" floatingLabelText="Password" type="password" /><br /></li>
                       <li><TextField helperText="Reapeat password" floatingLabelText="Password" type="password" /><br /></li>
                       <li><TextField helperText="Your email" floatingLabelText="Password" /><br /></li>
-                      <Button raised color="primary" onclick="./civ">Register</Button>
+                      <Button raised color="primary">Register</Button>
                       </ul>
                   <ul>
                     <li>Log in:</li>
                     <li><TextField helperText="Username" floatingLabelText="Fixed Floating Label Text" floatingLabelFixed={true} /><br /></li>
                     <li><TextField helperText="Password" hintText="XD" floatingLabelText="Password" type="password"/><br /></li>
-                    <Button raised color="primary" onClick={this.handleClick}>
-        {this.state.isToggleOn ? 'ON' : 'OFF'}
-      </Button>
+                    <Link to="/foo">
+                    <Button raised color="primary">Login</Button>
+                    </Link>
                     </ul>
                     <div className="info">
                     <h4>Check my GitHub!</h4>
+                    <a href="https://github.com/animek66">
                     <Button className="but" raised color="accent">GitHub</Button>
+                    </a>
                     </div>
                   </div>
                   {/* Container End */}
@@ -65,6 +54,30 @@ import './index.css';
       }
   }
 
-render(<Nav />,document.getElementById('root'));
+  const Foo = () => (<Redirect to="/baz" />);
+  
+  class Bazar extends React.Component {
+    click = event => console.log(event);
+    render() {
+      return (
+        <div>
+          <Link to="/">
+          <Button className="homebtn" onClick={this.props.click} raised color="accent">Home</Button>
+          </Link>
+        </div>
+      );
+    }
+  }
+
+  render(
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Nav} />
+        <Route exact path="/foo" component={Foo} />
+        <Route exact path="/baz" component={Bazar} />
+      </Switch>
+    </BrowserRouter>,
+      document.getElementById('root')
+    )
 
 

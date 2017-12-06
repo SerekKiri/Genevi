@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    text-decoration: none;
 }
 
 
@@ -89,5 +90,9 @@ ul {
 }
 
 button {
-    margin-top: 5%;
+    margin-top: 4%;
+ }
+
+.homebtn {
+    margin-left: 5%;
 }
