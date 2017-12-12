@@ -1,0 +1,7 @@
+{
+    "extends": "standard",
+    "rules": {
+      "react/jsx-filename-extension": 0,
+      "no-unused-vars": 0
+    }
+}
