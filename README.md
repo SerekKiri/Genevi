@@ -1,5 +1,5 @@
-React-CV-Generator by Kacper Potyrała
-
+React-CV-Generator
+(not ready yet)
 To run this app you need:
 ```
  npm install
