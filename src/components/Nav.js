@@ -24,16 +24,16 @@ export default class Nav extends React.Component {
           <h3>Just register!</h3>
           <ul>
             <li>Register:</li>
-            <li><TextField helperText="Username" floatingLabelText="Fixed Floating Label Text" floatingLabelFixed={true} /><br /></li>
-            <li><TextField helperText="Password" floatingLabelText="Password" type="password" /><br /></li>
-            <li><TextField helperText="Reapeat password" floatingLabelText="Password" type="password" /><br /></li>
-            <li><TextField helperText="Your email" floatingLabelText="Password" /><br /></li>
+            <li><TextField helperText="Username" /><br /></li>
+            <li><TextField helperText="Password" type="password" /><br /></li>
+            <li><TextField helperText="Reapeat password" type="password" /><br /></li>
+            <li><TextField helperText="Your email" /><br /></li>
             <Button raised color="primary">Register</Button>
           </ul>
           <ul>
             <li>Log in:</li>
-            <li><TextField helperText="Username" floatingLabelText="Fixed Floating Label Text" floatingLabelFixed={true} /><br /></li>
-            <li><TextField helperText="Password" hintText="XD" floatingLabelText="Password" type="password"/><br /></li>
+            <li><TextField helperText="Username" /><br /></li>
+            <li><TextField helperText="Password" type="password"/><br /></li>
             <Link to="/foo">
               <Button raised color="primary">Login</Button>
             </Link>
