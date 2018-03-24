@@ -1,4 +1,4 @@
-React-CV-Generator
+#React-CV-Generator
 
 (not ready yet)
 
@@ -11,7 +11,5 @@ And now:
 npm start
 ```
 Build
-```
-npm run build
-```
+
 Enjoy!
