@@ -1,6 +1,4 @@
-React-CV-Generator
-
-(not ready yet)
+#React-CV-Generator
 
 To run this app you need:
 ```
@@ -10,8 +8,5 @@ And now:
 ```
 npm start
 ```
-Build
-```
-npm run build
-```
+
 Enjoy!
