@@ -10,5 +10,4 @@ And now:
 ```
 npm start
 ```
-
 Enjoy!
