@@ -6,61 +6,41 @@
 
 #root {
     width: 100%;
-    height: 100vh;
     font-family: 'Merriweather Sans', sans-serif;  
 }
 
 .navi {
-    background-color: #20232A;
-    padding-bottom: 3px;
-    padding-top: 5px;
-    height: 6vh;
+    background-color: #3f51b5;
+    height: 8vh;
 }
 
-.text {
-    float: left;
-    text-align: center;
-    width: 100%;
-    height: auto;
-}
-
-
-.info {
-    width: 100%;
-    height: 18vh;
-    float: left;
-    margin-top: 5vh;
-    text-align: center;
-}
 
 .input {
     margin: 5px;
 }
 
 h1 {
-    color: #61DAFB;
     font-size: 40px;
 }
 
 h2 {
-    color: #61DAFB;
     font-size: 20px;
 }
 
 h3 {
-    color: #61DAFB;
     font-size: 20px;
 }
 
 h4 {
-    color: #20232A;
     font-size: 15px;
 }
 
 .main {
-    width: 100%;
-    height: 89vh;
-    background-color:#F0FFFF;
+    display: flex;
+    margin: 10%;
+    width: 80%;
+    height: 80vh;
+    background-color:#fff;
     text-align: center;
     padding: 0;
 }
@@ -74,37 +54,22 @@ ul {
     font-family: 'Oxygen', sans-serif;
   }
 
-.footer {
-    text-align: center;
-    background-color: #20232A;
-    width: 100%;
-    color: #61DAFB;
-    height: 2.7vh;
-    padding-top: 5px;
-}
-
 .but {
     margin-top: 1%;
-}
-
-button {
-    margin-top: 4%;
- }
-
-.homebtn {
-    margin-left: 5%;
 }
 
 .reg {
     width: 50%;
     float: left;
     margin: 0;
+    color: #2196f3;
 }
 
 .log {
     width: 50%;
     float: left;
     margin: 0;
+    color: #2196f3;
 }
 
 .but {

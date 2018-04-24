@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../css/index.css';
 
 
@@ -9,14 +10,9 @@ export default class Nav extends React.Component {
       <div>
         <nav> {/* Navigation start */}
           <div className="navi">
-            <div className="text">
-              <h1>CV Creator</h1>
-            </div>
           </div>
         </nav> {/* Navigation End */}
         <div className="main">  {/* Container start */}
-          <h1>Welcome!</h1>
-          <h2>Here you can create your own CV!</h2>
           <div className="reg">
          <h2>Register here:</h2>
          <div className="ui input focus">
@@ -24,7 +20,7 @@ export default class Nav extends React.Component {
          </div>
          <br />
          <div className="ui input focus">
-         <input placeholder="email.example@gmail.com" type="text"></input>
+         <input placeholder="example@email.com" type="text"></input>
          </div>
          <br />
          <div className="ui input focus">
@@ -35,7 +31,7 @@ export default class Nav extends React.Component {
          <input placeholder="Repat password" type="text"></input>
          </div>
          <div className="but">
-         <button className="ui primary button">
+         <button className="ui button">
           Save
          </button>
          </div>
@@ -52,19 +48,18 @@ export default class Nav extends React.Component {
          </div>
          <br />
          <div className="but">
+         <Link to="/CV">
          <div className="ui animated button" tabIndex="0">
           <div className="visible content">Log in</div>
           <div className="hidden content">
             <i className="right arrow icon"></i>
                 </div>
               </div>
+              </Link>
             </div>
           </div>
         </div>
         {/* Container End */}
-        <div className="footer">
-          CV Creator by animek66
-        </div>
       </div>
     )
   }
