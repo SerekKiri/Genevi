@@ -9,6 +9,7 @@ export default class CV extends React.Component {
         <div>
           <nav> {/* Navigation start */}
             <div className="navi">
+            CV Generator
             </div>
           </nav> {/* Navigation End */}
           <div className="main">  {/* Container start */}

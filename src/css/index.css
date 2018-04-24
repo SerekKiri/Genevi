@@ -3,6 +3,12 @@
     text-decoration: none;
 }
 
+.page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
 
 #root {
     width: 100%;
@@ -12,6 +18,11 @@
 .navi {
     background-color: #3f51b5;
     height: 8vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
 }
 
 
@@ -38,6 +49,8 @@ h4 {
 .main {
     display: flex;
     margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 0;
     width: 80%;
     height: 80vh;
     background-color:#fff;

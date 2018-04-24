@@ -7,9 +7,10 @@ import '../css/index.css';
 export default class Nav extends React.Component {
   render() {
     return (
-      <div>
+      <div className="page">
         <nav> {/* Navigation start */}
           <div className="navi">
+          CV Generator
           </div>
         </nav> {/* Navigation End */}
         <div className="main">  {/* Container start */}
