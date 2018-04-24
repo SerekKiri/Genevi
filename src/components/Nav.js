@@ -19,23 +19,23 @@ export default class Nav extends React.Component {
           <h2>Here you can create your own CV!</h2>
           <div className="reg">
          <h2>Register here:</h2>
-         <div class="ui input focus">
+         <div className="ui input focus">
          <input placeholder="Nick" type="text"></input>
          </div>
          <br />
-         <div class="ui input focus">
+         <div className="ui input focus">
          <input placeholder="email.example@gmail.com" type="text"></input>
          </div>
          <br />
-         <div class="ui input focus">
+         <div className="ui input focus">
          <input placeholder="Password" type="text"></input>
          </div>
          <br />
-         <div class="ui input focus">
+         <div className="ui input focus">
          <input placeholder="Repat password" type="text"></input>
          </div>
-         <div class="but">
-         <button class="ui primary button">
+         <div className="but">
+         <button className="ui primary button">
           Save
          </button>
          </div>
@@ -43,19 +43,19 @@ export default class Nav extends React.Component {
 
         <div className="log">
          <h2>Login:</h2>
-         <div class="ui input focus">
+         <div className="ui input focus">
          <input placeholder="Nick" type="text"></input>
          </div>
          <br />
-         <div class="ui input focus">
+         <div className="ui input focus">
          <input placeholder="Password" type="password"></input>
          </div>
          <br />
-         <div class="but">
-         <div class="ui animated button" tabindex="0">
-          <div class="visible content">Log in</div>
-          <div class="hidden content">
-            <i class="right arrow icon"></i>
+         <div className="but">
+         <div className="ui animated button" tabIndex="0">
+          <div className="visible content">Log in</div>
+          <div className="hidden content">
+            <i className="right arrow icon"></i>
                 </div>
               </div>
             </div>
