@@ -95,12 +95,18 @@ button {
     margin-left: 5%;
 }
 
-.log {
-    width: 50%;
-    float: left;
-}
-
 .reg {
     width: 50%;
     float: left;
+    margin: 0;
+}
+
+.log {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+.but {
+    margin-top: 10px;
 }
