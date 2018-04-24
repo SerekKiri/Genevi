@@ -62,7 +62,7 @@ h4 {
     height: 89vh;
     background-color:#F0FFFF;
     text-align: center;
-    padding-top: 10px;
+    padding: 0;
 }
 
 ul {
@@ -93,4 +93,14 @@ button {
 
 .homebtn {
     margin-left: 5%;
+}
+
+.log {
+    width: 50%;
+    float: left;
+}
+
+.reg {
+    width: 50%;
+    float: left;
 }

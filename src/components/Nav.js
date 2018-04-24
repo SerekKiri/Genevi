@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/index.css';
-import Form from './Form';
 
 
 
@@ -18,7 +17,13 @@ export default class Nav extends React.Component {
         <div className="main">  {/* Container start */}
           <h1>Welcome!</h1>
           <h2>Here you can create your own CV!</h2>
-          <Form />
+          <div className="reg">
+         <h2>Register here:</h2>  
+        </div>
+
+        <div className="log">
+         <h2>Login:</h2>  
+        </div>
         </div>
         {/* Container End */}
         <div className="footer">
