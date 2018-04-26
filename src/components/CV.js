@@ -21,11 +21,11 @@ export default class CV extends React.Component {
          <div className="ui input focus">
          <input placeholder="Surname" type="text"></input>
          </div>
+         <div class="img">
          <div class="ui card">
          <div class="content">
         <a class="header">Put your image here</a>
         </div>
-        <div class="img">
         <input type="file" accept="image/*"></input>
         </div>
         </div>
