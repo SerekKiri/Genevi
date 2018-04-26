@@ -197,6 +197,14 @@ h4 {
 
 }
 
+@media (min-width: 768px), (min-height: 1024px) {
+    .navi {
+        height: 8vh;
+        font-size: 30px;
+        line-height: 80px;
+    }
+}
+
 
 @media (min-width: 1080px) {
     .navi {
