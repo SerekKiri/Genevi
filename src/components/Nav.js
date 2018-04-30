@@ -61,6 +61,9 @@ export default class Nav extends React.Component {
           </div>
         </div>
         {/* Container End */}
+        <div className="footer">
+        Created by <a href="https://github.com/animek66">animek66</a>
+        </div>
       </div>
     )
   }

@@ -2,37 +2,28 @@ import React from 'react'
 import '../css/index.css';
 
 
-
 export default class CV extends React.Component {
-    render() {
-      return (
-        <div>
-          <nav> {/* Navigation start */}
-            <div className="navi">
+  render() {
+    return (
+      <div>
+        <nav> {/* Navigation start */}
+          <div className="navi">
             Curriculum Vitae Generator
             </div>
-          </nav> {/* Navigation End */}
-          <div className="main"> {/* Container start */}
-          <div className="form">
-          
-          <div className="ui input focus">
-         <input placeholder="Name" type="text"></input>
-         </div>
-         <div className="ui input focus">
-         <input placeholder="Surname" type="text"></input>
-         </div>
-         <div className="img">
-         <div className="ui card">
-         <div className="content">
-        <a className="header">Put your image here</a>
+        </nav> {/* Navigation End */}
+        <div className="main"> {/* Container start */}
+        <div className="form1">
+
         </div>
-        <input type="file" accept="image/*"></input>
+        <div className="form2">
+
         </div>
         </div>
-          </div>
-          </div>
-          {/* Container End */}
+        {/* Container End */}
+        <div className="footer">
+        Created by <a href="https://github.com/animek66">animek66</a>
         </div>
-      )
-    }
+      </div>
+    )
   }
+}
