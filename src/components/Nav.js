@@ -10,59 +10,59 @@ export default class Nav extends React.Component {
       <div className="page">
         <nav> {/* Navigation start */}
           <div className="navi">
-          Curriculum Vitae Generator
+            Curriculum Vitae Generator
           </div>
         </nav> {/* Navigation End */}
         <div className="main">  {/* Container start */}
           <div className="reg">
-         <h2>Register here:</h2>
-         <div className="ui input focus">
-         <input placeholder="Nick" type="text"></input>
-         </div>
-         <br />
-         <div className="ui input focus">
-         <input placeholder="example@email.com" type="text"></input>
-         </div>
-         <br />
-         <div className="ui input focus">
-         <input placeholder="Password" type="text"></input>
-         </div>
-         <br />
-         <div className="ui input focus">
-         <input placeholder="Repat password" type="text"></input>
-         </div>
-         <div className="but">
-         <button className="ui button">
-          Save
+            <h2>Register here:</h2>
+            <div className="ui input focus">
+              <input placeholder="Nick" type="text"></input>
+            </div>
+            <br />
+            <div className="ui input focus">
+              <input placeholder="example@email.com" type="text"></input>
+            </div>
+            <br />
+            <div className="ui input focus">
+              <input placeholder="Password" type="text"></input>
+            </div>
+            <br />
+            <div className="ui input focus">
+              <input placeholder="Repat password" type="text"></input>
+            </div>
+            <div className="but">
+              <button className="ui button">
+                Save
          </button>
-         </div>
-        </div>
+            </div>
+          </div>
 
-        <div className="log">
-         <h2>Login:</h2>
-         <div className="ui input focus">
-         <input placeholder="Nick" type="text"></input>
-         </div>
-         <br />
-         <div className="ui input focus">
-         <input placeholder="Password" type="password"></input>
-         </div>
-         <br />
-         <div className="but">
-         <Link to="/CV">
-         <div className="ui animated button" tabIndex="0">
-          <div className="visible content">Log in</div>
-          <div className="hidden content">
-            <i className="right arrow icon"></i>
+          <div className="log">
+            <h2>Login:</h2>
+            <div className="ui input focus">
+              <input placeholder="Nick" type="text"></input>
+            </div>
+            <br />
+            <div className="ui input focus">
+              <input placeholder="Password" type="password"></input>
+            </div>
+            <br />
+            <div className="but">
+              <Link to="/CV">
+                <div className="ui animated button" tabIndex="0">
+                  <div className="visible content">Log in</div>
+                  <div className="hidden content">
+                    <i className="right arrow icon"></i>
+                  </div>
                 </div>
-              </div>
               </Link>
             </div>
           </div>
         </div>
         {/* Container End */}
         <div className="footer">
-        Created by <a href="https://github.com/animek66">animek66</a>
+          Created by <a href="https://github.com/animek66">animek66</a>
         </div>
       </div>
     )

@@ -17,25 +17,25 @@ export default class CV extends React.Component {
           <div className="form1">
             First form
         <div className="pres">
-        <Link to="/nop">
-        <Button icon labelPosition='right'>
-        I take it!
-      <Icon name='right arrow' />
-    </Button>
-    </Link>
+              <Link to="/nop">
+                <Button icon labelPosition='right'>
+                  I take it!
+                  <Icon name='right arrow' />
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="form2">
             Second form
             <div className="pres">
-            <Link to="/phot">
-            <Button icon labelPosition='right'>
-      This one look's better!
-      <Icon name='right arrow' />
-    </Button>
-    </Link>
+              <Link to="/phot">
+                <Button icon labelPosition='right'>
+                  This one look's better!
+                  <Icon name='right arrow' />
+                </Button>
+              </Link>
             </div>
-        </div>
+          </div>
         </div>
         {/* Container End */}
         <div className="footer">
