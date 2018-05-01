@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../css/index.css';
+import { Input, Button } from 'semantic-ui-react'
 
 
 
@@ -17,38 +18,36 @@ export default class Nav extends React.Component {
           <div className="reg">
             <h2>Register here:</h2>
             <div className="ui input focus">
-              <input placeholder="Nick" type="text"></input>
+              <Input placeholder="Nick" type="text" />
             </div>
             <br />
             <div className="ui input focus">
-              <input placeholder="example@email.com" type="text"></input>
+              <Input placeholder="example@email.com" type="text" />
             </div>
             <br />
             <div className="ui input focus">
-              <input placeholder="Password" type="text"></input>
+              <Input placeholder="Password" type="text" />
             </div>
             <br />
             <div className="ui input focus">
-              <input placeholder="Repat password" type="text"></input>
+              <Input placeholder="Repat password" type="text" />
             </div>
-            <div className="but">
-              <button className="ui button">
+            <br />
+              <Button>
                 Save
-         </button>
-            </div>
+         </Button>
           </div>
 
           <div className="log">
             <h2>Login:</h2>
             <div className="ui input focus">
-              <input placeholder="Nick" type="text"></input>
+              <Input placeholder="Nick" type="text" />
             </div>
             <br />
             <div className="ui input focus">
-              <input placeholder="Password" type="password"></input>
+              <Input placeholder="Password" type="password" />
             </div>
             <br />
-            <div className="but">
               <Link to="/CV">
                 <div className="ui animated button" tabIndex="0">
                   <div className="visible content">Log in</div>
@@ -57,7 +56,6 @@ export default class Nav extends React.Component {
                   </div>
                 </div>
               </Link>
-            </div>
           </div>
         </div>
         {/* Container End */}

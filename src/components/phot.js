@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/index.css';
+import { Input } from 'semantic-ui-react';
 
 
 export default class phot extends React.Component {
@@ -12,6 +13,7 @@ export default class phot extends React.Component {
             </div>
                 </nav> {/* Navigation End */}
                 <div className="main"> {/* Container start */}
+                <Input placeholder="name" />
                 </div>
                 {/* Container End */}
                 <div className="footer">
