@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/index.css';
-
+import { Button, Icon } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
 export default class nop extends React.Component {
     render() {
@@ -12,6 +13,13 @@ export default class nop extends React.Component {
             </div>
                 </nav> {/* Navigation End */}
                 <div className="main"> {/* Container start */}
+                <div className="first">
+                <Link to="/CV">
+                <Button> <Icon name='left arrow' /> Go back </Button>
+                </Link>
+                <div className="for1">
+                </div>
+                </div>
                 </div>
                 {/* Container End */}
                 <div className="footer">

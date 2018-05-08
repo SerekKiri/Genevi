@@ -16,10 +16,12 @@ export default class CV extends React.Component {
         <div className="main"> {/* Container start */}
           <div className="form1">
             First form
+            (without photo)
         <div className="pres">
               <Input placeholder="Name" /> <Input placeholder="Surname" />
               <br />
               <Input placeholder="City" /> <Input placeholder="Adress" />
+              <br />
               <br />
               <Link to="/nop">
                 <Button icon labelPosition='right'>
@@ -30,18 +32,13 @@ export default class CV extends React.Component {
             </div>
           </div>
           <div className="form2">
-            Second form
+            Second form (with photo)
             <div className="pres">
-              <p>
-                <div className="av">
-                  <Input placeholder="name" />
-                  <Image size="mini" className="avatar" src="https://i.imgur.com/6Ywvx4i.png" alt="Your avatar" />
+            <div className="av">
+                  <Input placeholder="Name" />
+                  <Image size="small" className="avatar" src="https://i.imgur.com/6Ywvx4i.png" alt="Your avatar" />
                 </div>
-              </p>
-              <p>
-                <Input placeholder="Surname" />
-                <Input placeholder="Surname" />
-              </p>
+                <br />
               <Link to="/phot">
                 <Button icon labelPosition='right'>
                   This one look's better!
