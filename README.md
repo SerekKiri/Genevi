@@ -1,6 +1,7 @@
 
-# React-CV-Generator
+# React-CV-Generator [WiP]
 
+__Project is not ended...__
 
 To run this app you need:
 ```
