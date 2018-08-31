@@ -1,5 +1,5 @@
 
-# React-CV-Generator [WiP]
+# React Curriculum Vitae Generator [WiP]
 
 __Project is not ended...__
 
