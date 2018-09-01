@@ -23,7 +23,8 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
     "semantic-ui": "^2.3.1",
-    "semantic-ui-react": "^0.79.1"
+    "semantic-ui-react": "^0.79.1",
+    "styled-components": "^3.4.5"
   },
   "devDependencies": {
     "eslint": "^4.13.1",

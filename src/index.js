@@ -7,7 +7,6 @@ import CV from './components/CV'
 import nop from './components/nop'
 import phot from './components/phot'
 
-
 render(
   <BrowserRouter>
     <Switch>
