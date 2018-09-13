@@ -48,10 +48,7 @@ h4 {
 
 .main {
     display: flex;
-    margin: 10%;
-    margin-top: 5%;
     margin-bottom: 0;
-    width: 80%;
     height: 80vh;
     background-color:#fff;
     text-align: center;
@@ -62,15 +59,15 @@ h4 {
     margin-top: 1%;
 }
 
-.reg {
-    width: 50%;
-    float: left;
+.register {
+    
+    float: right;
     margin: 0;
     color: #2196f3;
+    padding: 1rem;
 }
 
-.log {
-    width: 50%;
+.login {
     float: left;
     margin: 0;
     color: #2196f3;
@@ -78,7 +75,6 @@ h4 {
 
 
 .form1 {
-    width: 50%;
     float: left;
     margin: 0;
     margin-top: 3%;
@@ -112,6 +108,8 @@ h4 {
   text-align: center;
   width: 100%;
   height: 4vh;
+  background-color: #F9F6F6;
+  padding-top: 0.7rem;
 }
 
 .av {
@@ -154,12 +152,12 @@ h4 {
     }
     
     
-    .reg {
+    .register {
         width: 100%;
         float: left;
     }
     
-    .log {
+    .login {
         width: 100%;
         float: left;
         margin-top: 2vh;
@@ -184,12 +182,12 @@ h4 {
         padding: 0;
     }
     
-    .reg {
+    .register {
         width: 100%;
         margin-top: 1vh;
     }
     
-    .log {
+    .login {
         margin-top: 1vh;
     }
 
@@ -210,12 +208,12 @@ h4 {
         line-height: 50px;
     }
     
-    .reg {
+    .register {
         width: 100%;
         margin-top: 2vh;
     }
     
-    .log {
+    .login {
         width: 100%;
         margin-top: 2vh;
     }
@@ -240,11 +238,11 @@ h4 {
         display: flex;
     }
 
-    .reg {
+    .register {
         margin-top: 3vh;
     }
 
-    .log {
+    .login {
         margin-top: 3vh;
         margin-bottom: 0;
     }
@@ -270,11 +268,11 @@ h4 {
         display: flex;
     }
 
-    .reg {
+    .register {
         margin-top: 5vh;
     }
 
-    .log {
+    .login {
         margin-top: 5vh;
     }
 }
@@ -286,12 +284,12 @@ h4 {
         line-height: 55px;
     }
     
-    .reg {
+    .register {
         margin-top: 8vh;
 
     }
     
-    .log {
+    .login {
         margin-top: 8vh;
     }
 }
