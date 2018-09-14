@@ -9,6 +9,7 @@ __Work in progress!__
 
 To run this app you need:
  - Node.js version ``8.0`` or higer
+
     ```
      node -v
     ```

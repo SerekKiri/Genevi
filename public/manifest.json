@@ -3,7 +3,7 @@
   "name": "react-cv-generator",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "../src/assets/favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
