@@ -1,7 +1,11 @@
 
 # React Curriculum Vitae Generator [WiP]
 
-__Project is not ended...__
+__Work in progress!__
+
+### Website hosted with github pages
+
+[serekkiri.github.io](https://serekkiri.github.io/)
 
 To run this app you need:
  - Node.js version ``8.0`` or higer
