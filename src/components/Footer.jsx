@@ -1,5 +1,7 @@
 import * as React from 'react'
 import { Button, Divider, Icon, Container } from 'semantic-ui-react'
+
+// CSS
 import '../css/footer.css'
 
 export default class Footer extends React.Component {

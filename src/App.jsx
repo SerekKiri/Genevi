@@ -1,6 +1,8 @@
 import * as React from 'react'
-import Home from './pages/Home'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
+
+// Components
+import Home from './pages/Home'
 import Generator from './pages/Generator'
 
 export default class App extends React.Component {
