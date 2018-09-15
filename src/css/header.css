@@ -3,3 +3,9 @@
     padding: 0;
     padding-top: 1rem;
 }
+
+.ico {
+    float: right;
+    margin: 0;
+    border: none;
+}
