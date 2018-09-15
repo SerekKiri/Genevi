@@ -6,8 +6,8 @@ import '../css/preview.css'
 export default class Prev extends React.Component {
   render () {
     return (
-      <div className="cont">
-        <Container>
+      <div>
+        <Container className="cont">
           <Header as="h2">
             <p>
               Here you can create your own  Curiculum Vitae

@@ -1,0 +1,26 @@
+.cont {
+    padding: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    width: auto;
+}
+
+li.componenets {
+    width: 20%;
+}
+
+
+li.page {
+    width: 60%;
+}
+
+li.editor {
+    width: 20%;
+}
