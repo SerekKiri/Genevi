@@ -13,7 +13,15 @@ export default class Footer extends React.Component {
           <h4>Authored by <a href="https://github.com/SerekKiri">SerekKiri</a> and <a href="https://github.com/xdk78">xdk78</a></h4>
           <a href="https://github.com/SerekKiri/ReactPortfolioGenerator">
             <Button animated>
-              <Button.Content visible>Source Code</Button.Content>
+              <Button.Content visible><Icon name="code" />Source Code</Button.Content>
+              <Button.Content hidden>
+                <Icon name='arrow right' />
+              </Button.Content>
+            </Button>
+          </a>
+          <a href="https://www.paypal.me/kiritito">
+            <Button animated color="blue">
+              <Button.Content visible><Icon name="paypal" />Donation</Button.Content>
               <Button.Content hidden>
                 <Icon name='arrow right' />
               </Button.Content>

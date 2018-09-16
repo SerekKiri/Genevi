@@ -17,7 +17,7 @@ export default class Prev extends React.Component {
             <img src="https://craft-cv.com/image/en/65/online-cv-maker.png" alt="example"></img>
           </p>
           <Link to="/generator">
-            <Button animated size="big">
+            <Button animated size="big" color="green">
               <Button.Content visible>Let's try</Button.Content>
               <Button.Content hidden>
                 <Icon name='arrow right' />

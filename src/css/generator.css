@@ -1,10 +1,12 @@
 .cont {
     padding: 1.5rem;
+    padding-bottom: 0;
 }
 
 ul {
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -23,4 +25,12 @@ li.page {
 
 li.editor {
     width: 20%;
+}
+
+@media (max-width: 1000px) {
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
