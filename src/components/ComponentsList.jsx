@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Input } from 'semantic-ui-react'
 
 // CSS
 import '../css/main.css'
@@ -9,6 +10,10 @@ export default class ConponentsList extends React.Component {
     return (
       <div className="cont">
         <h1>Components</h1>
+        <div className="elements">
+          <div className="element"><Input disabled placeholder='Name' /></div>
+          <div className="element"><Input disabled placeholder='Surname' /></div>
+        </div>
       </div>
     )
   }

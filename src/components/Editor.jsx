@@ -9,6 +9,9 @@ export default class Editor extends React.Component {
     return (
       <div className="cont">
         <h1>Editor</h1>
+        <div className="elements">
+          <h1>ddd</h1>
+        </div>
       </div>
     )
   }
