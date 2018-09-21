@@ -1,11 +1,13 @@
 
-# React Curriculum Vitae Generator [WiP]
+# React Curriculum Vitae Generator [WiP] [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![GitHub issues](https://img.shields.io/github/issues/SerekKiri/ReactPortfolioGenerator.svg)](https://github.com/SerekKiri/ReactPortfolioGenerator/issues)
+
+
+
 
 __Work in progress!__
-
-### Website hosted with github pages
-
-[serekkiri.github.io](https://serekkiri.github.io/)
 
 To run this app you need:
  - Node.js version ``8.0`` or higer
