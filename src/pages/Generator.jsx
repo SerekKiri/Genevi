@@ -68,7 +68,11 @@ render () {
       <ul>
         <li className="componenets">
           <h1>Components</h1>
-          <div className="elements">
+          <div
+            className="elements"
+            onDragOver={(e) => this.onDragOver(e)}
+            onDrop={(e) => { this.onDrop(e, 'new') }}
+          >
             {elements.new}
           </div>
         </li>
@@ -76,7 +80,7 @@ render () {
           <div
             className="card"
             onDragOver={(e) => this.onDragOver(e)}
-            onDrop={(e) => this.onDrop(e, 'complete')}
+            onDrop={(e) => this.onDrop(e, 'placed')}
           >
             {elements.placed}
           </div>
