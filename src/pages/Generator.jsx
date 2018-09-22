@@ -15,8 +15,7 @@ export default class Generator extends React.Component {
   state = {
     elements: [
       { name: 'text1', category: 'new' },
-      { name: 'text2', category: 'new' },
-      { name: 'text3', category: 'placed' }
+      { name: 'text2', category: 'placed' }
     ]
   }
 
@@ -53,7 +52,8 @@ render () {
 
   this.state.elements.forEach((el) => {
     elements[el.category] = [
-      <div key={el.name}
+      <div
+        key={el.name}
         onDragStart = {(e) => this.onDragStart(e, el.name)}
         draggable
         className="element"
