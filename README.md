@@ -7,20 +7,16 @@
   </h1>
 </p>
 
+# :runner: Running application
 
-
-
-
-__Work in progress!__
-
-To run this app you need:
+### To run this app you need:
  - Node.js version ``8.0`` or higer
 
     ```
      node -v
     ```
-Running up:
-- You need to install depedencies:
+### Running up:
+- First what you need to install depedencies:
     ```
     npm install
     ```
@@ -29,6 +25,15 @@ Running up:
     ```
     npm start
     ```
-*All bugs and feature requests please add in [issues](https://github.com/SerekKiri/ReactPortfolio-s/issues)*
+# :money_with_wings: Donations
 
-Enjoy!
+[PayPal](https://www.paypal.me/kiritito)
+
+We're collecting money for domain and hosting. Thanks for all donations. :hand:
+
+# :clap: Contributing
+If you want to help with the project, you can have a look at [some issues](https://github.com/SerekKiri/genevi/issues). All help is much appreciated :blush:
+
+# :scroll: License
+
+This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
