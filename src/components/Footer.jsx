@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
       <div className="foot">
         <Container textAlign='center'>
           <Divider></Divider>
-          <h4>Authored by <a href="https://github.com/SerekKiri">SerekKiri</a> and <a href="https://github.com/xdk78">xdk78</a></h4>
+          <h4>Authored by <a href="https://github.com/SerekKiri">SerekKiri</a></h4>
           <a href="https://github.com/SerekKiri/ReactPortfolioGenerator">
             <Button animated>
               <Button.Content visible><Icon name="code" />Source Code</Button.Content>

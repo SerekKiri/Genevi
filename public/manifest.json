@@ -1,6 +1,6 @@
 {
-  "short_name": "react-cv-generator",
-  "name": "react-cv-generator",
+  "short_name": "genevi",
+  "name": "genevi",
   "icons": [
     {
       "src": "../src/assets/favicon.png",
