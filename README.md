@@ -1,8 +1,12 @@
+<p align="center">
+  <h1 align="center">
+    <img src="https://cdn-images-1.medium.com/max/1200/1*6kK9j74vyOmXYm1gN6ARhQ.png" width="200px" alt="Genevi"/><br/><br/>
+     <img src="https://img.shields.io/github/license/SerekKiri/genevi.svg?style=for-the-badge" alt="GitHub"/>
+     <a href="https://github.com/guildspeak/guildspeak-app/issues"><img src="https://img.shields.io/github/issues/SerekKiri/genevi.svg?style=for-the-badge" alt="GitHub issues" /></a>
+     <img src="https://img.shields.io/badge/Built%20with-%E2%9D%A4%20LOVE-red.svg?longCache=true&amp;style=for-the-badge" alt="LOVE" />
+  </h1>
+</p>
 
-# React Curriculum Vitae Generator [WiP] [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![GitHub issues](https://img.shields.io/github/issues/SerekKiri/ReactPortfolioGenerator.svg)](https://github.com/SerekKiri/ReactPortfolioGenerator/issues)
 
 
 
