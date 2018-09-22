@@ -1,10 +1,9 @@
 <p align="center">
   <h1 align="center">
-    <img src="https://cdn-images-1.medium.com/max/1200/1*6kK9j74vyOmXYm1gN6ARhQ.png" width="200px" alt="Genevi"/>
-    <img src="./src/assets/text.svg" atl="text"/>
+    <img src="https://cdn-images-1.medium.com/max/1200/1*6kK9j74vyOmXYm1gN6ARhQ.png" width="200px" alt="Genevi"/><br />
+    <img src="./src/assets/text.svg" width="200px" atl="text"/>
     <br/><br/>
-     <img src="https://img.shields.io/github/license/SerekKiri/genevi.svg?style=for-the-badge" alt="GitHub"/>
-     <a href="https://github.com/guildspeak/guildspeak-app/issues"><img src="https://img.shields.io/github/issues/SerekKiri/genevi.svg?style=for-the-badge" alt="GitHub issues" /></a>
+     <img src="https://img.shields.io/github/license/SerekKiri/genevi.svg?style=for-the-badge" alt="GitHub"/> <a href="https://github.com/guildspeak/guildspeak-app/issues"><img src="https://img.shields.io/github/issues/SerekKiri/genevi.svg?style=for-the-badge" alt="GitHub issues" /></a>
      <img src="https://img.shields.io/badge/Built%20with-%E2%9D%A4%20LOVE-red.svg?longCache=true&amp;style=for-the-badge" alt="LOVE" />
   </h1>
 </p>
