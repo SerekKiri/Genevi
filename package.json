@@ -11,7 +11,9 @@
     "lint-fix": "eslint  --fix --ext .js --ignore-path .gitignore ."
   },
   "dependencies": {
+    "lodash.flow": "^3.5.0",
     "react": "^16.5.1",
+    "react-addons-update": "^15.6.2",
     "react-dnd": "^5.0.0",
     "react-dnd-html5-backend": "^5.0.1",
     "react-dom": "^16.5.1",

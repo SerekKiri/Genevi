@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">
-    <img src="./src/assets/logo.svg" width="300px" atl="text"/><br/>
+    <img src="./src/assets/logo.svg" width="300px" atl="logo"/><br/>
     <img src="./src/assets/text.svg" width="400px" alt="text"/>
     <br/><br/>
      <img src="https://img.shields.io/github/license/SerekKiri/genevi.svg?style=for-the-badge" alt="GitHub"/> <a href="https://github.com/guildspeak/guildspeak-app/issues"><img src="https://img.shields.io/github/issues/SerekKiri/genevi.svg?style=for-the-badge" alt="GitHub issues" /></a>
