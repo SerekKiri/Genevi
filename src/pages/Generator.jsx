@@ -1,69 +1,46 @@
-import * as React from 'react'
-import HTML5Backend from 'react-dnd-html5-backend'
-import { DragDropContext } from 'react-dnd'
-import update from 'immutability-helper'
+import React, { Component } from 'react'
+import { Button } from 'semantic-ui-react'
 
 // CSS
-import '../css/main.css'
 import '../css/generator.css'
-import '../css/components.css'
-import '../css/editor.css'
 
 // Components
+import Markdown from '../components/Markdown'
 import Footer from '../components/Footer'
-import Page from '../components/Page'
-import Item from '../components/Item'
 
-class Generator extends React.Component {
+let marked = require('marked')
+
+class Generator extends Component {
   state = {
-    items: [
-      { id: 1, name: 'Name' },
-      { id: 2, name: 'Surname' }
-    ]
+    markdown: ''
   }
 
-  pushItem (item) {
-    this.setState(update(this.state, {
-      items: {
-        $push: [ item ]
-      }
-    }))
+  updateMarkdown = function (markdown) {
+    this.setState({ markdown })
   }
 
   render () {
+    let { markdown } = this.state
+
+    console.log(markdown)
     return (
-      <div className="cont">
-        <ul>
-          <li className="componenets">
-            <h1>Components</h1>
-            <div
-              className="elements"
-              id={1}
-              list={this.items}
-            >
-              {this.state.items.map((item, index) => (
-                <Item
-                  key={item.id}
-                  item={item}
-                  handleDrop={ (item) => this.pushItem(item)}
-                />
-              ))}
+      <div>
+        <div className="container">
+          <div className="cont">
+            <div className="card">
+              <textarea className="markInput" placeholder="Enter markdown here" value={markdown} onChange = {(event) => this.updateMarkdown(event.target.value) } >
+              </textarea>
             </div>
-          </li>
-          <li className="page">
-            <Page/>
-          </li>
-          <li className="editor">
-            <h1>Editor</h1>
-            <div className="elements">
-              <h1>Coming soon...</h1>
+          </div>
+          <div className="card">
+            <div className="markInput" dangerouslySetInnerHTML = {{ __html: marked(markdown) }}>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
         <Footer />
       </div>
     )
   }
 }
 
-export default DragDropContext(HTML5Backend)(Generator)
+export default Generator

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Footer from '../components/Footer'
 import Head from '../components/Header'
-import Prev from '../components/Preview'
+import Prev from '../components/Main'
 
 export default class Home extends React.Component {
   render () {

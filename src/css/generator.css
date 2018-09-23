@@ -1,36 +1,6 @@
-.cont {
-    padding: 1.5rem;
+.container {
+    padding: 2rem;
     padding-bottom: 0;
-}
-
-ul {
-    list-style: none;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-}
-
-li {
-    width: auto;
-}
-
-li.componenets {
-    width: 20%;
-}
-
-
-li.page {
-    width: 60%;
-}
-
-li.editor {
-    width: 20%;
-}
-
-@media (max-width: 1000px) {
-    ul {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 }
