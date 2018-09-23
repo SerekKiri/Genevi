@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { DragSource } from 'react-dnd'
-import update from 'immutability-helper'
+// import update from 'immutability-helper'
 
 const itemSource = {
   beginDrag (props) {
-    console.log(`Started dragging component ${props.item.name}`)
+    console.log('Started dragging ' + props.item.name)
     return props.item
   },
   endDrag (props, monitor, component) {
@@ -26,11 +26,10 @@ function collect (connect, monitor) {
 
 class Item extends Component {
   render () {
-    const { isDragging, connectDragSource, item } = this.props
-    const opacity = isDragging ? 0 : 1
+    const { connectDragSource, item } = this.props
 
     return connectDragSource(
-      <div className="item" style={{ opacity }}>
+      <div className="item">
         <span>{item.name}</span>
       </div>
     )

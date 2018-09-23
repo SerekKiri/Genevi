@@ -15,11 +15,9 @@ function collect (connect, monitor) {
 class Page extends React.Component {
   render () {
     const { connectDropTarget } = this.props
-    return connectDropTarget(
-      <div
-        className="card"
-      >
 
+    return connectDropTarget(
+      <div className="card">
       </div>
     )
   }

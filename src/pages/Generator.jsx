@@ -1,6 +1,7 @@
 import * as React from 'react'
 import HTML5Backend from 'react-dnd-html5-backend'
 import { DragDropContext } from 'react-dnd'
+import update from 'immutability-helper'
 
 // CSS
 import '../css/main.css'
@@ -21,12 +22,12 @@ class Generator extends React.Component {
     ]
   }
 
-  deleteItem = id => {
-    this.setState(prevState => {
-      return {
-        items: prevState.items.filter(item => item.id !== id)
+  pushItem (item) {
+    this.setState(update(this.state, {
+      items: {
+        $push: [ item ]
       }
-    })
+    }))
   }
 
   render () {
@@ -37,12 +38,14 @@ class Generator extends React.Component {
             <h1>Components</h1>
             <div
               className="elements"
+              id={1}
+              list={this.items}
             >
               {this.state.items.map((item, index) => (
                 <Item
                   key={item.id}
                   item={item}
-                  handleDrop={ (id) => this.deleteItem(id)}
+                  handleDrop={ (item) => this.pushItem(item)}
                 />
               ))}
             </div>
