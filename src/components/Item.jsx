@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { DragSource } from 'react-dnd'
+import update from 'immutability-helper'
 
 const itemSource = {
   beginDrag (props) {
