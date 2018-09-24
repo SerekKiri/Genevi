@@ -1,6 +1,12 @@
-.container {
-    padding: 2rem;
+.generator {
+    text-align: center;
+}
+
+.contain {
+    padding: 0.4rem;
+    padding-left: 0;
     padding-bottom: 0;
     display: flex;
     justify-content: center;
+    text-align: left;
 }
