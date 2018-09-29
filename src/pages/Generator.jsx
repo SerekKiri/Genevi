@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 // CSS
 import '../css/generator.css'
+import { Button, Icon } from 'semantic-ui-react'
 
 // Components
 import Markdown from '../components/Markdown'
@@ -23,8 +24,8 @@ class Generator extends Component {
 
     console.log(markdown)
     return (
-      <div>
-        <div className="container">
+      <div className="generator">
+        <div className="contain">
           <div className="cont">
             <div className="card">
               <textarea className="markInput" placeholder="Enter markdown here" value={markdown} onChange = {(event) => this.updateMarkdown(event.target.value) } >
@@ -36,6 +37,12 @@ class Generator extends Component {
             </div>
           </div>
         </div>
+        <Button animated color="blue">
+          <Button.Content visible><Icon name="save" />Save</Button.Content>
+          <Button.Content hidden>
+            <Icon name='arrow right' />
+          </Button.Content>
+        </Button>
         <Footer />
       </div>
     )
