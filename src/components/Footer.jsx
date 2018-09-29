@@ -19,14 +19,6 @@ export default class Footer extends React.Component {
               </Button.Content>
             </Button>
           </a>
-          <a href="https://www.paypal.me/kiritito">
-            <Button animated color="blue">
-              <Button.Content visible><Icon name="paypal" />Donation</Button.Content>
-              <Button.Content hidden>
-                <Icon name='arrow right' />
-              </Button.Content>
-            </Button>
-          </a>
         </Container>
       </div>
     )
