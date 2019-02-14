@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">
-    <img src="./src/assets/logo.svg" width="300px" atl="logo"/><br/>
-    <img src="./src/assets/text.svg" width="400px" alt="text"/>
+    <img src="./public/assets/logo.svg" width="300px" atl="logo"/><br/>
+    <img src="./public/assets/text.svg" width="400px" alt="text"/>
     <br/><br/>
      <img src="https://img.shields.io/github/license/SerekKiri/genevi.svg?style=for-the-badge" alt="GitHub"/> <a href="https://github.com/guildspeak/guildspeak-app/issues"><img src="https://img.shields.io/github/issues/SerekKiri/genevi.svg?style=for-the-badge" alt="GitHub issues" /></a>
      <img src="https://img.shields.io/badge/Built%20with-%E2%9D%A4%20LOVE-red.svg?longCache=true&amp;style=for-the-badge" alt="LOVE" />
@@ -15,7 +15,7 @@ __Work in Progress__
 # :runner: Running application
 
 ### To run this app you need:
- - Node.js version ``8.0`` or higer
+ - Node.js version ``10.0`` or higer
 
     ```
      node -v

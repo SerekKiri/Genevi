@@ -1,0 +1,13 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint-config-airbnb", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "semicolon": [true, "never"],
+    "max-line-length": [true, 124],
+    "variable-name": false,
+    "import-name": false,
+    "object-shorthand-properties-first": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "align": false
+  }
+}
