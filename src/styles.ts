@@ -1,18 +1,17 @@
 import styled, { css } from 'styled-components'
 
 export const style = css`
-  @import url('https://fonts.googleapis.com/css?family=Roboto');
-  @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+  html {
+    font-family: 'Roboto', sans-serif;
+  }
 
   body {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
-    background: #202020;
-    color: #fff;
-    overflow: hidden;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
 `
 

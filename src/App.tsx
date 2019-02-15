@@ -5,7 +5,7 @@ import { AppWrapper } from './styles'
 
 const Home = Loadable({
   loader: () => import('./views/Home'),
-  loading: () => <div />
+  loading: () => <div>loading...</div>
 })
 
 export default () => (
