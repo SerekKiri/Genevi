@@ -4,7 +4,7 @@ const { resolve } = require('path')
 const baseConfig = require('./webpack.config.base')
 const protocol = process.env.HTTPS === 'true' ? 'https' : 'http'
 const host = process.env.HOST || 'localhost'
-const port = process.env.PORT || '5000'
+const port = process.env.PORT || '3000'
 
 module.exports = merge(baseConfig, {
   mode: 'development',

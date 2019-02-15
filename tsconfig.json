@@ -1,25 +1,21 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "target": "esnext",
     "module": "esnext",
-    "jsx": "preserve",
+    "target": "esnext",
+    "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "removeComments": false,
-    "preserveConstEnums": true,
-    "sourceMap": true,
-    "skipLibCheck": true,
+    "lib": ["dom", "es2018", "esnext"],
+    "experimentalDecorators": true,
     "baseUrl": ".",
-    "typeRoots": ["./node_modules/@types"],
-    "lib": ["dom", "es2015", "es2016"]
+    "typeRoots": ["./node_modules/@types"]
   },
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts*",
-    "**/*.test.ts*",
-  ]
+  "awesomeTypescriptLoaderOptions": {
+    "reportFiles": ["src/**/*.{ts,tsx}"],
+    "useCache": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["config", "node_modules", "**/*.spec.ts*", "**/*.test.ts*", "dist", "build"]
 }
