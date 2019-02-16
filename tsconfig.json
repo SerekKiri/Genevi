@@ -6,16 +6,17 @@
     "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
+    "importHelpers": true,
     "allowSyntheticDefaultImports": true,
-    "lib": ["dom", "es2018", "esnext"],
-    "experimentalDecorators": true,
+    "lib": ["dom", "esnext"],
     "baseUrl": ".",
     "typeRoots": ["./node_modules/@types"]
   },
   "awesomeTypescriptLoaderOptions": {
+    "useTranspileModule": true,
     "reportFiles": ["src/**/*.{ts,tsx}"],
     "useCache": true
   },
-  "include": ["src/**/*"],
+  "include": ["./src/**/*"],
   "exclude": ["config", "node_modules", "**/*.spec.ts*", "**/*.test.ts*", "dist", "build"]
 }

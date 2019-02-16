@@ -1,14 +1,9 @@
 import * as React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Loadable from 'react-loadable'
 import { AppWrapper } from './styles'
+import Home from './views/Home'
 
-const Home = Loadable({
-  loader: () => import('./views/Home'),
-  loading: () => <div>loading...</div>
-})
-
-export default () => (
+const App = () => (
   <AppWrapper>
     <Router>
       <Switch>
@@ -17,3 +12,5 @@ export default () => (
     </Router>
   </AppWrapper>
 )
+
+export default App
